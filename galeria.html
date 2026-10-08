@@ -1,0 +1,84 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - TICs y Filosofía</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>TICs y el tratamiento de la información en la filosofía</h1>
+        <p class="slogan">Proyecto Interdisciplinario 2026</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="informacion.html">La Información</a></li>
+                <li><a href="filosofia.html">El Conocimiento</a></li>
+                <li><a href="pensadores.html">Pensadores</a></li>
+                <li><a href="actualidad.html">Actualidad</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="sintesis.html">Síntesis</a></li>
+                <li><a href="conclusion.html">Conclusión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="galeria-imagenes">
+            <h2>Galería de imágenes</h2>
+            <!-- TAREA: Reemplazá las 6 URLs con imágenes relacionadas al proyecto (pensadores, esquemas, tecnología, etc.) -->
+            <div class="galeria-grid">
+                <img src="https://3.bp.blogspot.com/-kUm_ROVm89U/TaCWWfsUH7I/AAAAAAAABTA/HilcqBuluYo/s1600/Mito%2Bde%2Bla%2BCaverna%2Bde%2BPlat%25C3%25B3n.jpg" alt="Platon mito de la caverna" class="img-ampliable">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE_yBiSw0ebuZJ6KulNjJD_FnoIpoXem7Ubm_aACT_S6xflrSygit04OHGjTd0cqwtXQ5MPeS_UA6os92CSZcVNgKAxiz8XIHr-THKrxQ1-JZaQcBLXNs5zFLEeZ-HmVUQuD6F23xNUZA/s1600/cropped-epistemologia1.jpg" alt="El conocimiento" class="img-ampliable">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-uP_ihLc-52wyeXQe7ExE9pQnuoF_wrAlEfyu6xoHxVEvFvAJbnZkAk&s=10" alt="Sujeto y Objeto" class="img-ampliable">
+                <img src="https://www.ecured.cu/images/6/6a/Sociedad_red.jpg" alt="Sociedad Red" class="img-ampliable">
+                <img src="https://www.alianzaeditorial.es/imagenes/libros/grande/9788420647845-la-sociedad-red-una-vision-global.jpg" alt="Sociedad Red" class="img-ampliable">
+                <img src="https://universoabierto.org/wp-content/uploads/2017/03/aaeaaqaaaaaaaatvaaaajgvhmtnjmme5ltvknwitndq1mi05zjg0ltgyntbhndrkywi0zq.jpg" alt="Brecha digital" class="img-ampliable">
+            </div>
+        </section>
+
+        <section id="galeria-videos">
+            <h2>Galería de videos</h2>
+            <!-- TAREA: Reemplazá el ID del video de YouTube (ver Paso 9 de la guía) -->
+            <div class="video-grid">
+                <div class="video-item">
+                    <iframe
+                        width="100%"
+                        height="220"
+                        src="https://www.youtube.com/embed/He-_Or8x-tA?si=MkVrZ-QczMUR31aJ" 
+                        title="Todas las TEORÍAS FILOSÓFICAS Explicadas en 8 Minutos"
+                        allowfullscreen>
+                    </iframe>
+                    <!-- TAREA: Completá con una breve descripción del video -->
+                    <p>Este video explica de forma rápida y sencilla las ideas principales de los filósofos más influyentes de la historia, usando ejemplos cotidianos para entender cómo veía cada uno el mundo y la vida.</p>
+                </div>
+                <div class="video-item">
+                    <iframe
+                        width="100%"
+                        height="220"
+                        src="https://www.youtube.com/embed/qLvSfSsCqm8?si=oTK1akN-cBJMJ5cp"
+                        title="EL SUJETO Y EL OBJETO EN LA CONSTRUCCIÓN DEL CONOCIMIENTO"
+                        allowfullscreen>
+                    </iframe>
+                    <p>Este video explica de forma fácil y directa cómo construimos el conocimiento mediante la relación entre el sujeto (quien conoce) y el objeto (lo que se conoce).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Proyecto Interdisciplinario — IPET 1308</p>
+    </footer>
+
+    <div class="modal-overlay" id="modal-imagen-ampliada" style="display:none;">
+        <span class="modal-cerrar-imagen">&times;</span>
+        <img src="" alt="" id="imagen-ampliada-contenido">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+```
